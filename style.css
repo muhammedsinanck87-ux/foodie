@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Roboto',sans-serif;
+}
+
+/* headr */
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+
+}
+header .container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container img{
+    width: 100px;
+}
+header .container ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+header .container ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500px;
+
+}
+header .container .Contact{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    background-color:#31e708;
+    padding: 5px 20px;
+    border-radius: 20px;
+
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+} 
+.hero .container h1{
+    font-size: 54px;
+    font-weight: 800;
+
+}
+.hero .container h1 span{
+   
+    font-size: 54px;
+    font-weight: 800;
+    color:#31e708;
+    font-family: 'permenent Marker',cursive;
+  
+}
+.hero .container p{
+    font-size: 15px;
+    color: rgb(88, 87, 85);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.hero .container a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    background-color:#31e708;
+    padding: 10px 30px;
+    border-radius: 20px;
+
+}
+.hero .container .right img{
+    width: 500px;
+}
